@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Резюме_UA</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div id="clock"></div>
+            <br>
+            <div class="profile-img"><img src="image/photo1.png "></div>
+
+            <div class="box-1">
+                <div class="heading">
+                    <p>CONTACT</p>
+                </div>
+                <p class="p1"><i class="material-icons icons1">call</i>+123-324-555</p>
+                <p class="p1"><i class="material-icons icons1">email</i>example@ukr.net</p>
+            </div>
+            <div class="box-1">
+                <div class="heading">
+                    <p>LANGUAGES</p>
+                </div>
+                <p class="p1">HTML
+                    <div class="skill-container">
+                        <div class="skill html"></div>
+                    </div>
+                </p>    
+                <p class="p1">CSS
+                    <div class="skill-container">
+                        <div class="skill css"></div>
+                    </div>
+                </p>    
+                <p class="p1">JAVASCRIPT
+                    <div class="skill-container">
+                        <div class="skill js"></div>
+                    </div>
+                </p>    
+                <p class="p1">JQUERY
+                    <div class="skill-container">
+                        <div class="skill jquery"></div>
+                    </div>
+                </p>  
+            </div>      
+        
+            <br>
+
+            <div class="box-1">
+                <div class="heading">
+                    <p>SKILLS</p>
+                </div>
+
+                <p class="p1">WEBSITE DESIGN
+                <div class="skill-container">
+                    <div class="skill web"></div>
+                </div>
+                </p> 
+
+                <p class="p1">GRAPHIC DESIGN
+                <div class="skill-container">
+                    <div class="skill gra"></div>
+                </div>
+                </p> 
+            </div>  
+            <br>
+            <div class="box-1">
+                <div class="heading">
+                    <p>HOBBIES</p>
+                </div>
+
+                <div class="h-div"> 
+                    <i class="material-icons icons2">camera_roll</i>
+                    <i class="material-icons icons2">music_note</i>
+                    <i class="material-icons icons2">border_color</i>
+                    <i class="material-icons icons2">motorcycle</i>
+                </div>
+
+          
+            </div>      
+        </div>
+        
+
+        <div class="right">
+            <button onclick="setLanguage('en')"> <a href="index.html" >English</a></button>
+           
+            <div id="calendar"></div>
+            <div class="name-div">
+                <span class="text1">Resume</span>
+                <span class="text2">Lila Oleksandr<br>Bachelor of Software</span>
+            </div>
+
+            <div class="box-2">
+                <h2>Про себе <i class="material-icons icons3" style="font-size: 28px!important"> perm_identity</i></h2>
+                <p class="p2">
+                    Я, Ліла Олександр Федорович народився 21.11.1972 в Черкасах.
+                    Середню освіту отримав у школі №9 міста Черкас. 
+                    Із вересня 2022-го року навчаюсь в Черкаському державному технологічному університеті
+                    за спеціальністю программіст.
+                    Закінчив харьковський авіаційний інститут в 1996 році, специалізація : робототехнічні системи.
+                    Маю 20 років досвіду в галузі автоматичних ліній і здатен працювати як самостійно, так і у команді.
+                     Зацікавлений у постійному професійному розвитку і готовий вдосконалювати свої навички.
+                   Володію відмінними комунікаційними та аналітичними навичками. Маю репутацію як відданий,
+                    цілеспрямований та відповідальний працівник, здатний досягати поставлених цілей
+                     
+                </p>
+            </div>
+            <div class="box-2">
+                <h2>Освіта <i class="material-icons icons3" >border_color</i></h2>
+                    <p class="p3">1980-1990 <span>середня школа №9</span></p>
+                    <p class="p2">
+                        Середню освіту отримав у школі №9 міста Черкас.
+                    </p>
+                    <p class="p3">1991-1996 <span>ХАІ, робототехнічні системи</span></p>
+                    <p class="p2">
+                        Закінчив харьковський авіаційний інститут в 1996 році, специалізація 
+                        : робототехнічні системи.
+                    </p>
+                <p class="p3">2022 -... <span>ЧДТУ, програмне забезпечення</span></p>
+                <p class="p2">
+                    Із вересня 2022-го року навчаюсь в Черкаському державному технологічному
+                     університеті
+                    за спеціальністю программіст.
+                </p>
+            </div>
+
+            <div class="box-2">
+                <h2>Досвід роботи<i class="material-icons icons3" >folder</i></h2>
+               
+                <p class="p3">2002-2022 <span>НПО "Фотоприлад"</span></p>
+                <p class="p2">
+                    з жовтня 1996 року по лютий 2002 року працював інженером-електроніком
+                     налагодження та ремонт станків з ЧПУ
+                </p>
+                <p class="p3">1996-2002 <span>ПАТ "Азот"</span></p>
+                <p class="p2">
+                    з жовтня 1996 року по лютий 2002 року працював інженером-електроніком, 
+                    налагодження та ремонт станків з ЧПУ
+                </p>
+                <!--<canvas id="skillsChart" ></canvas>-->
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2023 Ліла Олександр</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+   <!-- <script src="script1.js"></script>-->
+</body>
+</html>
