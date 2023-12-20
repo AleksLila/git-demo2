@@ -2,7 +2,7 @@ function updateClock() {
     const clockElement = document.getElementById('clock');
     const now = new Date();
     const timeString = now.toLocaleTimeString();
-    clockElement.textContent = 'Current time: ' + timeString;
+    clockElement.textContent = 'Точний час: ' + timeString;
 }
 
 function updateCalendar() {
@@ -11,7 +11,7 @@ function updateCalendar() {
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     /*const dateString = now.toLocaleDateString(undefined, options);*/
     const dateString = now.toLocaleDateString('en-US', options);
-    calendarElement.textContent = 'Today: ' + dateString;
+    calendarElement.textContent = 'Сьогодні: ' + dateString;
     
 }
 
